@@ -1,2 +1,2 @@
 # Now loading
-![Now loading]{loading.gif}
+![Now loading](loading.gif)
