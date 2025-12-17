@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML-pelidemo</title>
+  <style>
+    html,
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+      background-color: #111;
+
+      .canvas-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+
+      canvas {
+        background-color: #9bbc0f;
+        max-width: 100%;
+        max-height: 100%;
+        image-rendering: pixelated;
+      }
+    }
+
+    .teksti {
+      position: left;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="teksti"></p>
+  <div class="canvas-container">
+    <canvas id="gameCanvas" width="160" height="144"></canvas>
+  </div>
+  <script src="esittelyversio.js"></script>
+</body>
+
+</html>
